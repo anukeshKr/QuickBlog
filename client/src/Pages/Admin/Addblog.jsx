@@ -45,7 +45,7 @@ const Addblog = () => {
         setTitle('')
         quillRef.current.root.innerHTML=''
         setCategory('Startup')
-
+        setSubTitle('')
         fetchblogs()
       }else{
         toast.error(data.message)
